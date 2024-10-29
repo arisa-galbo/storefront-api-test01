@@ -3,12 +3,13 @@
 client_id = "257f4c0c892bde9f8bb91a990d37343d"
 name = "storefront-api-test01"
 handle = "storefront-api-test01"
-application_url = "https://hamburg-colors-produces-feet.trycloudflare.com"
+application_url = "https://maria-advanced-florida-illustrations.trycloudflare.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
 dev_store_url = "starting-to-build-app.myshopify.com"
+include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
@@ -25,7 +26,13 @@ redirect_urls = [
   "https://gsm-vehicle-martial-employment.trycloudflare.com/api/auth/callback",
   "https://hamburg-colors-produces-feet.trycloudflare.com/auth/callback",
   "https://hamburg-colors-produces-feet.trycloudflare.com/auth/shopify/callback",
-  "https://hamburg-colors-produces-feet.trycloudflare.com/api/auth/callback"
+  "https://hamburg-colors-produces-feet.trycloudflare.com/api/auth/callback",
+  "https://beach-fight-msgstr-clearance.trycloudflare.com/auth/callback",
+  "https://beach-fight-msgstr-clearance.trycloudflare.com/auth/shopify/callback",
+  "https://beach-fight-msgstr-clearance.trycloudflare.com/api/auth/callback",
+  "https://maria-advanced-florida-illustrations.trycloudflare.com/auth/callback",
+  "https://maria-advanced-florida-illustrations.trycloudflare.com/auth/shopify/callback",
+  "https://maria-advanced-florida-illustrations.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
