@@ -3,7 +3,7 @@
 client_id = "257f4c0c892bde9f8bb91a990d37343d"
 name = "storefront-api-test01"
 handle = "storefront-api-test01"
-application_url = "https://maria-advanced-florida-illustrations.trycloudflare.com"
+application_url = "https://spy-reform-tires-sustainability.trycloudflare.com"
 embedded = true
 
 [build]
@@ -32,7 +32,10 @@ redirect_urls = [
   "https://beach-fight-msgstr-clearance.trycloudflare.com/api/auth/callback",
   "https://maria-advanced-florida-illustrations.trycloudflare.com/auth/callback",
   "https://maria-advanced-florida-illustrations.trycloudflare.com/auth/shopify/callback",
-  "https://maria-advanced-florida-illustrations.trycloudflare.com/api/auth/callback"
+  "https://maria-advanced-florida-illustrations.trycloudflare.com/api/auth/callback",
+  "https://spy-reform-tires-sustainability.trycloudflare.com/auth/callback",
+  "https://spy-reform-tires-sustainability.trycloudflare.com/auth/shopify/callback",
+  "https://spy-reform-tires-sustainability.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
