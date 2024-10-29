@@ -21,6 +21,9 @@ redirect_urls = [
   "https://storefront-api-test01.onrender.com/auth/callback",
   "https://storefront-api-test01.onrender.com/auth/shopify/callback",
   "https://storefront-api-test01.onrender.com/api/auth/callback",
+  "https://storefront-api-test01.onrender.com/auth/callback",
+  "https://storefront-api-test01.onrender.com/auth/shopify/callback",
+  "https://storefront-api-test01.onrender.com/api/auth/callback"
 ]
 
 [webhooks]
