@@ -6,24 +6,17 @@ const shop = "starting-to-build-app.myshopify.com";
 
 // カートに商品を追加するローダー
 export async function loader({ request }) {
-  const variantId = "gid://shopify/ProductVariant/49337863438647";
-  const quantity = 1;
-
-  const cart = await addToCart(variantId, quantity);
-  return json(cart);
-}
-
-// カート追加のアクション
-export async function action({ request }) {
-  const formData = new URLSearchParams(await request.text());
-  const variantId = formData.get("variantId");
-  const quantity = parseInt(formData.get("quantity"), 10) || 1;
-
-  const cart = await addToCart(variantId, quantity);
-
-  if (cart) {
-    return redirect(`https://${shop}/cart`);
-  } else {
-    return redirect("/error");
+    const url = new URL(request.url);
+    //const variantId = url.searchParams.get("variantId"); // クエリからvariantIdを取得
+    const variantId = "gid://shopify/ProductVariant/49337863438647";
+    const quantity = url.searchParams.get("quantity") || 1;
+  
+    // クエリパラメータが存在する場合に処理を実行
+    if (variantId) {
+      const cart = await addToCart(variantId, quantity);
+      return redirect(`https://${shop}/cart`);
+    } else {
+        return redirect("/error");
+    }
   }
-}
+
