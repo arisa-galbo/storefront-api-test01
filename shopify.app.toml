@@ -3,7 +3,7 @@
 client_id = "257f4c0c892bde9f8bb91a990d37343d"
 name = "storefront-api-test01"
 handle = "storefront-api-test01"
-application_url = "https://spy-reform-tires-sustainability.trycloudflare.com"
+application_url = "https://storefront-api-test01.onrender.com"
 embedded = true
 
 [build]
@@ -17,25 +17,10 @@ scopes = "read_customers,read_draft_orders,read_orders,read_products,write_custo
 
 [auth]
 redirect_urls = [
-  "https://example.com/api/auth",
-  "https://worlds-oclc-jim-cause.trycloudflare.com/auth/callback",
-  "https://worlds-oclc-jim-cause.trycloudflare.com/auth/shopify/callback",
-  "https://worlds-oclc-jim-cause.trycloudflare.com/api/auth/callback",
-  "https://gsm-vehicle-martial-employment.trycloudflare.com/auth/callback",
-  "https://gsm-vehicle-martial-employment.trycloudflare.com/auth/shopify/callback",
-  "https://gsm-vehicle-martial-employment.trycloudflare.com/api/auth/callback",
-  "https://hamburg-colors-produces-feet.trycloudflare.com/auth/callback",
-  "https://hamburg-colors-produces-feet.trycloudflare.com/auth/shopify/callback",
-  "https://hamburg-colors-produces-feet.trycloudflare.com/api/auth/callback",
-  "https://beach-fight-msgstr-clearance.trycloudflare.com/auth/callback",
-  "https://beach-fight-msgstr-clearance.trycloudflare.com/auth/shopify/callback",
-  "https://beach-fight-msgstr-clearance.trycloudflare.com/api/auth/callback",
-  "https://maria-advanced-florida-illustrations.trycloudflare.com/auth/callback",
-  "https://maria-advanced-florida-illustrations.trycloudflare.com/auth/shopify/callback",
-  "https://maria-advanced-florida-illustrations.trycloudflare.com/api/auth/callback",
-  "https://spy-reform-tires-sustainability.trycloudflare.com/auth/callback",
-  "https://spy-reform-tires-sustainability.trycloudflare.com/auth/shopify/callback",
-  "https://spy-reform-tires-sustainability.trycloudflare.com/api/auth/callback"
+  "https://storefront-api-test01.onrender.com/api/auth",
+  "https://storefront-api-test01.onrender.com/auth/callback",
+  "https://storefront-api-test01.onrender.com/auth/shopify/callback",
+  "https://storefront-api-test01.onrender.com/api/auth/callback",
 ]
 
 [webhooks]
